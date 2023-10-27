@@ -9,7 +9,7 @@ export function Experencie() {
     <div className="experience">
       <SectionTitle text="Experience" />
       <p>
-        5 years as a carpenter's assistant, I have no professional experience in
+        5 years as a carpenter assistant, I have no professional experience in
         the IT field yet
       </p>
       <div className="experience-time">
