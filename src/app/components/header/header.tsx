@@ -1,17 +1,17 @@
 import Image from "next/image";
 
-import "./header.scss";
+import styles from "./header.module.scss";
 
 export function Header() {
   return (
-    <div className="header">
+    <div className={styles.header}>
       <div>
-        <h1>hi, im Leonardo!👋</h1>
-        <h2>Web Developer</h2>
+        <h1>Hi, im Leonardo!👋</h1>
+        <h2>Desenvolvedor </h2>
       </div>
       <Image
-        src="/me.jpeg"
-        alt="Next.js Logo"
+        src="/eu.leo.jpeg"
+        alt="Leonardo"
         width={325}
         height={310}
         priority

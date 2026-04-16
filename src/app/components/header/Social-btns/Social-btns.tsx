@@ -16,6 +16,7 @@ export function SocialBtns() {
       <a href="https://github.com/zleo27">
         <GitHubIcon />
       </a>
+      
     </div>
   );
 }
